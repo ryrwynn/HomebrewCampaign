@@ -1,0 +1,82 @@
+:root{
+  --dark-red: #601A12;
+  --bright-red: #952B1B;
+  --background-color: #FDF1DB;
+  --border-orange: #EA9A2B;
+}
+
+@font-face {
+  font-family:"Bookmania-bold-italic";
+  src: url("fonts/Bookmania Bold Italic.otf");
+}
+
+@font-face {
+  font-family:"Bookmania-bold";
+  src: url("fonts/Bookmania Bold.otf");
+}
+
+@font-face {
+  font-family:"Bookmania-light-italic";
+  src: url("fonts/Bookmania Light Italic.otf");
+}
+
+@font-face {
+  font-family:"Bookmania-light";
+  src: url("fonts/Bookmania Light Italic.otf");
+}
+
+@font-face {
+  font-family:"Bookmania-light";
+  src: url("fonts/Bookmania Light.otf");
+}
+
+@font-face {
+  font-family:"Bookmania-regular-italic";
+  src: url("fonts/Bookmania Regular Italic.otf");
+}
+
+@font-face {
+  font-family:"Bookmania-regular";
+  src: url("fonts/Bookmania Regular.otf");
+}
+
+@font-face {
+    font-family:"Scala-sans-bold-italic";
+    src: url("fonts/ufonts.com_scala-sans-bold-italic.ttf");
+}
+
+@font-face {
+    font-family:"Scala-sans-bold";
+    src: url("fonts/ufonts.com_scala-sans-bold.ttf");
+}
+
+@font-face {
+    font-family:"Scala-sans-regular-italic";
+    src: url("fonts/ufonts.com_scala-sans-regular-italic.ttf");
+}
+
+@font-face {
+    font-family:"Scala-sans-regular";
+    src: url("fonts/ufonts.com_scala-sans-regular.ttf");
+}
+
+@font-face {
+    font-family:"Scala-sans-caps-bold-italic";
+    src: url("fonts/ufonts.com_scalasans-caps-bold-italic.ttf");
+}
+
+@font-face {
+    font-family:"Scala-sans-caps-bold";
+    src: url("fonts/ufonts.com_scalasans-caps-bold.ttf");
+}
+
+@font-face {
+    font-family:"Scala-sans-caps-italic";
+    src: url("fonts/ufonts.com_scalasans-caps-italic.ttf");
+}
+
+@font-face {
+    font-family:"Scala-sans-caps";
+    src: url("fonts/ufonts.com_scalasans-caps.ttf");
+}
+
