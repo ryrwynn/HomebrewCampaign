@@ -1,0 +1,86 @@
+:root{
+  --stat-block-size: 400px;
+}
+
+*{
+  margin: 0;
+}
+
+.stop1{
+  stop-color: var(--bright-red);
+}
+
+.stop2{
+  stop-color: rgba(255, 255, 255, 0);
+}
+
+h1.monsterName{
+  font:"Bookmania-bold"
+}
+
+.red-text{
+  color:var(--dark-red);
+}
+
+.scala-sans-bold{
+  font-family: "Scala-sans-bold";
+}
+
+.scala-sans-bold-italic{
+  font-family: "Scala-sans-bold-italic";
+}
+
+top-stats, bottom-stats{
+  font-family:"Scala-sans-regular";
+}
+
+creature-heading > h2{
+  font-family: "Bookmania-bold";
+  color: var(--dark-red);
+}
+
+creature-heading > h2::first-letter{
+  font-size: larger;
+}
+
+creature-heading > p{
+  font-family:"Scala-sans-bold-italic";
+}
+
+bottom-stats > h2{
+  border-bottom: solid 3px var(--dark-red);
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+abilities-block > table th{
+  font-family:"Scala-sans-caps-bold";
+  text-align: center;
+}
+
+abilities-block > table td{
+  text-align: center;
+}
+
+abilities-block > table{
+  width: 100%
+}
+
+bottom-stats > p{
+  margin-top: 10px;
+}
+
+border-block{
+  display: block;
+  width: calc(var(--stat-block-size) + 36px);
+  height: 4px;
+  background-color: var(--border-orange);
+  border: solid 2px black;
+}
+
+stat-block{
+  background-color: var(--background-color);
+  display: block;
+  width: calc(var(--stat-block-size));
+  padding: 20px;
+}

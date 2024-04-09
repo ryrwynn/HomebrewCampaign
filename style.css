@@ -1,86 +1,48 @@
-:root{
-  --stat-block-size: 400px;
-}
-
 *{
-  margin: 0;
+    margin: 0;
 }
 
-.stop1{
-  stop-color: var(--bright-red);
+button{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor:pointer;
 }
 
-.stop2{
-  stop-color: rgba(255, 255, 255, 0);
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-h1.monsterName{
-  font:"Bookmania-bold"
+.Bookmania-regular{
+    font-family: "Bookmania-light";
 }
 
-.red-text{
-  color:var(--dark-red);
+.Scala-sans-caps{
+    font-family: "Scala-sans-caps";
 }
 
-.scala-sans-bold{
-  font-family: "Scala-sans-bold";
+h2{
+    text-align: center;
+    margin-top: 30px;
 }
 
-.scala-sans-bold-italic{
-  font-family: "Scala-sans-bold-italic";
+#theoPfp, #leynaPfp, #mahbaPfp{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-size: cover;
 }
 
-top-stats, bottom-stats{
-  font-family:"Scala-sans-regular";
+#theoPfp{
+    background-image: url("pfp.png");
 }
 
-creature-heading > h2{
-  font-family: "Bookmania-bold";
-  color: var(--dark-red);
+#leynaPfp{
+    background-image: url("pfp.png");
 }
 
-creature-heading > h2::first-letter{
-  font-size: larger;
-}
-
-creature-heading > p{
-  font-family:"Scala-sans-bold-italic";
-}
-
-bottom-stats > h2{
-  border-bottom: solid 3px var(--dark-red);
-  margin-top: 20px;
-  font-size: 25px;
-}
-
-abilities-block > table th{
-  font-family:"Scala-sans-caps-bold";
-  text-align: center;
-}
-
-abilities-block > table td{
-  text-align: center;
-}
-
-abilities-block > table{
-  width: 100%
-}
-
-bottom-stats > p{
-  margin-top: 10px;
-}
-
-border-block{
-  display: block;
-  width: calc(var(--stat-block-size) + 36px);
-  height: 4px;
-  background-color: var(--border-orange);
-  border: solid 2px black;
-}
-
-stat-block{
-  background-color: var(--background-color);
-  display: block;
-  width: calc(var(--stat-block-size));
-  padding: 20px;
+#mahbaPfp{
+    background-image: url("pfp.png");
 }
