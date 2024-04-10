@@ -16,6 +16,20 @@ nav-div{
 
 nav-div > table{
   width: 100%;
+  table-layout: fixed;
+}
+
+nav-div > table th{
+  display: table-cell;
+  width: 100%;
+}
+
+#top-el{
+  margin-top: 40px;
+}
+
+.invisible{
+  display: none;
 }
 
 @font-face {

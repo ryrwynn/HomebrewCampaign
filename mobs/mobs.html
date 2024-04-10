@@ -20,7 +20,7 @@
 
     <body>
         <!--example creature block-->
-        <border-block></border-block>
+        <border-block id = "top-el"></border-block>
         <stat-block>
             <creature-heading>
               <h2>ANIMATED ARMOR</h2>
@@ -38,9 +38,9 @@
                 <polygon points="0 0, 500 4, 0 8" fill="url(#linear-red)"/>
             </svg>
             <top-stats class="red-text">
-                <p><span class="scala-sans-bold">Armor Class </span>18 (natural armor)</p>
-                <p><span class="scala-sans-bold">Hit Points </span>33 (6d8 + 6)</p>
-                <p><span class="scala-sans-bold">Speed </span>25ft</p>
+                <p><span class="scala-sans-bold">Armor Class </span><span player = "leyna">18 (natural armor)</span></p>
+                <p><span class="scala-sans-bold">Hit Points </span><span player = "mahba">33 (6d8 + 6)</p>
+                <p><span class="scala-sans-bold">Speed </span><span player = "theo leyna">25ft</span></p>
                 <svg class = "svg-triangle" width="100%" height = "8px"  xmlns="http://www.w3.org/2000/svg">
                 <!--red gradient-->
                 <defs>
@@ -214,4 +214,5 @@
         </stat-block>
         <border-block></border-block>
     </body>
+    <script src = "../def.js"></script>
 </html>
