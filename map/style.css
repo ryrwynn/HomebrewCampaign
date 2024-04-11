@@ -1,0 +1,100 @@
+:root{
+    --stroke-default: black;
+    --teleport-default: blue;
+    --teleport-hover: pink;
+}
+
+svg{
+    max-width: 1400px;
+    min-width: 250px;
+}
+
+.land-svg{
+    stroke: var(--stroke-default);
+    fill: none;
+    opacity: 1;
+    stroke-linecap: butt;
+    stroke-linejoin:round;
+    stroke-width:2;
+    grid-template-columns: 9;
+    grid-template-rows: 8;
+}
+
+.teleport-svg{
+    fill: var(--teleport-default);
+    opacity: 1;
+    stroke: var(--teleport-default);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.country-border-svg{
+    fill: none;
+    opacity: 1;
+    stroke: var(--stroke-default);
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+    stroke-width: 1;
+}
+
+.country-area-svg{
+    fill: rgb(227, 227, 255);
+    fill-opacity: 0;
+    fill-rule: nonzero;
+    opacity: 1;
+    stroke:none;
+}
+
+.city-border-svg{
+    fill: none;
+    opacity: 1;
+    stroke: var(--stroke-default);
+    stroke-dasharray: 4;
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+    stroke-width: .5;
+}
+
+.city-area-svg{
+    fill: white;
+    fill-opacity: 0;
+    fill-rule: nonzero;
+    opacity: 1;
+    stroke: none;
+}
+
+.background-svg{
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+#checkbox-div{
+    grid-row: 2/3;
+    grid-column: 1/1;
+    font-size: small;
+    font-family: "Scala-sans-caps";
+    z-index: 2;
+}
+
+#container-div{
+    display: grid;
+}
+
+#land, #teleport, #country-border, #country-area, #city-border, #city-area{
+    grid-row: 1/8;
+    grid-column: 1/9;
+}
+
+#teleport, #country-area, #city-area{
+    z-index: 1;
+} 
+
+label, input{
+    cursor: pointer;
+    z-index: 2;
+}
+
+#teleport>g>path:hover{
+    fill:var(--teleport-hover);
+    stroke: var(--teleport-hover);
+}
